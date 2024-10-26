@@ -76,7 +76,7 @@ hr {
 .autor {
     position: relative;
     font-size: 1em;
-    margin:22px 0 0 80px;
+    margin-top:22px;
 }
 .name {
     color: hsl(0, 0%, 100%);
