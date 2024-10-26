@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(../font/Outfit/Outfit-VariableFont_wght.ttf);
+}
+body {
+    max-width: 100vw;
+    height: 100vh;
+    font-family: "Outfit";
+    background: hsl(217, 54%, 11%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 21.875em;
+    height: 37em;
+    background: hsl(216, 50%, 16%);
+    border-radius: 17px;
+}
+.image_1 {
+    width: 18.875em;
+    height: 18.875em;
+    margin: 1.5em 0 0 1.5em;
+    border-radius: 10px;
+}
+.image_2 {
+    position: absolute;
+    margin: 1.7em 0 0 1.5em;
+}
+.image_3 {
+    position: absolute;
+    margin: 1.75em 0 0 6.75em;
+}
+.title {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0.9em 0 0 24px;
+    color: hsl(0, 0%, 100%);
+}
+p, .date, .autor {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.paragraph_1 {
+    font-size: 1.125em;
+    margin: 1.17em 0 0 1.3em;
+}
+span {
+    display: inline-block;
+}
+.coin {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    margin: 27px 0 24px 43px;
+}
+.date {
+    margin-left: 130px;
+    position: relative;
+}
+hr {
+    margin: 0 24px 0 24px;
+    border:0.05em solid hsl(215, 32%, 27%);
+}
+.image_4 {
+    width: 1.9em;
+    height: 1.9em;
+    margin: 0.92em 0 0 1.5em ;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+.autor {
+    position: relative;
+    font-size: 1em;
+    margin:22px 0 0 80px;
+}
+.name {
+    color: hsl(0, 0%, 100%);
+}
+.attribution {
+    font-size: 0.688em; 
+    text-align: center; 
+}
+.attribution a { 
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
